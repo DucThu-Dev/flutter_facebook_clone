@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_facebook_clone/presentations/main_tab_controller.dart';
+import 'package:flutter_facebook_clone/presentations/navigation_tab_widget.dart';
 import 'package:flutter_facebook_clone/themes/app_theme_data.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -24,7 +24,7 @@ class App extends StatelessWidget {
       theme: themeData(),
       title: appTitle,
       debugShowCheckedModeBanner: false,
-      home: const MainTabController(),
+      home: const NavigationTabWidget(),
     );
   }
 }
